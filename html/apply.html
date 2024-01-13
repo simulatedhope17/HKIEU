@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apply HKIU | Hong Kong Industrial University</title>
+    <link rel="stylesheet" type="text/css" href="../css/global.css">
+    <link rel="stylesheet" type="text/css" href="../css/apply.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="../css/apply_print.css" media="print">
+
+</head>
+
+<body>
+    <header class="header">
+        <img class="header_logo" src="../img/logo.png" alt="HKIU logo">
+        <br>
+        <h1 class="header_text">Hong Kong Industrial University</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="apply.html">Apply</a></li>
+            <li><a href="visit.html">Visit</a></li>
+            <li><a href="program.html">Program</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <main>
+        <div id="welcome">
+            <h2>Welcome to HKIU</h2>
+        </div>
+        <div id="catalog">
+            <h3>Common Application to Undergraduate Program</h3>
+            <h4 id="header1" onclick="showForm(1)">College of Engineering</h4>
+            <h4 id="header2" onclick="showForm(2)">College of Science</h4>
+            <h4 id="header3" onclick="showForm(3)">College of Interdisciplinary Studies</h4>
+            <div id="form1">
+                <form action="#" method="get">
+                    <img src="../img/cs.png" alt="BSc in Computer Science and Technology logo">
+                    <label for="major1">BSc in Computer Science and Technology</label>
+                    <input name="BSc in Computer Science and Technology" id="major1" type="text">
+                    <button id="btn1" type="submit">rank of choice</button>
+                </form>
+                <form action="#" method="get">
+                    <img src="../img/ei.png" alt="BEng in Electronic Information logo">
+                    <label for="major2">BEng in Electronic Information</label>
+                    <input name="BEng in Electronic Information" id="major2" type="text">
+                    <button id="btn2" type="submit">rank of choice</button>
+                </form>
+                <form action="#" method="get">
+                    <img src="../img/mse.png" alt="BEng in Materials Science and Engineering logo">
+                    <label for="major3">BEng in Materials Science and Engineering</label>
+                    <input name="BEng in Materials Science and Engineering" id="major3" type="text">
+                    <button id="btn3" type="submit">rank of choice</button>
+                </form>
+                <form action="#" method="get">
+                    <img src="../img/mc.png" alt="BEng in Materials and Chemicals logo">
+                    <label for="major4">BEng in Materials and Chemicals</label>
+                    <input name="BEng in Materials and Chemicals" id="major4" type="text">
+                    <button id="btn4" type="submit">rank of choice</button>
+                </form>
+                <form action="#" method="get">
+                    <img src="../img/est.png" alt="BSc in Electronic Science and Technology logo">
+                    <label for="major5">BSc in Electronic Science and Technology</label>
+                    <input name="BSc in Electronic Science and Technology" id="major5" type="text">
+                    <button id="btn5" type="submit">rank of choice</button>
+                </form>
+            </div>
+            <div id="form2">
+                <form action="#" method="get">
+                    <img src="../img/phy.png" alt="BSc in Physics logo">
+                    <label for="major6">BSc in Physics</label>
+                    <input name="BSc in Physics" id="major6" type="text">
+                    <button id="btn6" type="submit">rank of choice</button>
+                </form>
+                <form action="#" method="get">
+                    <img src="../img/chem.png" alt="BSc in Chemistry logo">
+                    <label for="major7">BSc in Chemistry</label>
+                    <input name="BSc in Chemistry" id="major7" type="text">
+                    <button id="btn7" type="submit">rank of choice</button>
+                </form>
+                <form action="#" method="get">
+                    <img src="../img/bio.png" alt="BSc in Biology logo">
+                    <label for="major8">BSc in Biology</label>
+                    <input name="BSc in Biology" id="major8" type="text">
+                    <button id="btn8" type="submit">rank of choice</button>
+                </form>
+            </div>
+            <div id="form3">
+                <form action="#" method="get">
+                    <img src="../img/cogs.png" alt="BSc in Cognitive Science logo">
+                    <label for="major9">BSc in Cognitive Science</label>
+                    <input name="BSc in Cognitive Science" id="major9" type="text">
+                    <button id="btn9" type="submit">rank of choice</button>
+                </form>
+                <form action="#" method="get">
+                    <img src="../img/be.png" alt="BEng in Biomedical Engineering logo">
+                    <label for="major10">BEng in Biomedical Engineering</label>
+                    <input name="BEng in Biomedical Engineering" id="major10" type="text">
+                    <button id="btn10" type="submit">rank of choice</button>
+                </form>
+                <form action="#" method="get">
+                    <img src="../img/bm.png" alt="BSc in Biology and Medicine logo">
+                    <label for="major11">BSc in Biology and Medicine</label>
+                    <input name="BSc in Biology and Medicine" id="major11" type="text">
+                    <button id="btn11" type="submit">rank of choice</button>
+                </form>
+            </div>
+        </div>
+        <div id="selection">
+            <h2>Your chosen majors:</h2>
+            <h4 id="time">Last change time:</h4>
+            <table>
+                <thead>
+                    <tr>
+                        <th>College</th>
+                        <th>Major</th>
+                        <th>Rank</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td id="college_1"></td>
+                        <td id="major_1"></td>
+                        <td id="rank_1">1</td>
+                    </tr>
+                    <tr>
+                        <td id="college_2"></td>
+                        <td id="major_2"></td>
+                        <td id="rank_2">2</td>
+                    </tr>
+                    <tr>
+                        <td id="college_3"></td>
+                        <td id="major_3"></td>
+                        <td id="rank_3">3</td>
+                    </tr>
+                    <tr>
+                        <td id="college_4"></td>
+                        <td id="major_4"></td>
+                        <td id="rank_4">4</td>
+                    </tr>
+                    <tr>
+                        <td id="college_5"></td>
+                        <td id="major_5"></td>
+                        <td id="rank_5">5</td>
+                    </tr>
+                    <tr>
+                        <td id="college_6"></td>
+                        <td id="major_6"></td>
+                        <td id="rank_6">6</td>
+                    </tr>
+                    <tr>
+                        <td id="college_7"></td>
+                        <td id="major_7"></td>
+                        <td id="rank_7">7</td>
+                    </tr>
+                    <tr>
+                        <td id="college_8"></td>
+                        <td id="major_8"></td>
+                        <td id="rank_8">8</td>
+                    </tr>
+                    <tr>
+                        <td id="college_9"></td>
+                        <td id="major_9"></td>
+                        <td id="rank_9">9</td>
+                    </tr>
+                    <tr>
+                        <td id="college_10"></td>
+                        <td id="major_10"></td>
+                        <td id="rank_10">10</td>
+                    </tr>
+                </tbody>
+            </table>
+            <h3 id="num">Total Number of Majors Applied: 0</h3>
+            <a id="submit" href="javascript:void(0)">submit </a>
+            <a id="reset" href="javascript:void(0)">clear</a>
+            <span id="error"></span>
+        </div>
+    </main>
+    <footer>
+        <img src="../img/footer_logo.png" alt="HKIU footer_logo">
+        <p> &copy; CityU 2023 sources of images and text from Wikipedia Commons and Courtesy of Icon pack by Icons8 --
+            designed by <a href="design.html">Akib</a></p>
+    </footer>
+    <script src="../js/apply.js"></script>
+</body>
+
+</html>

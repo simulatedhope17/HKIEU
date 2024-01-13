@@ -1,0 +1,82 @@
+main h2 {
+    text-align: center;
+    font-size: 240%;
+    margin-top: 3%;
+}
+
+.promo {
+    display: grid;
+    gap: 0;
+    grid-template-rows: 100%;
+}
+
+.promo h3 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    text-align: center;
+    margin-top: 17vh;
+    margin-left: 5vw;
+    font-size: 140%;
+    width: 40vw;
+    transition-duration: 2s;
+}
+
+.promo video {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    height: auto;
+    width: 40vw;
+    margin-right: 1vw;
+
+}
+
+.promo video:nth-child(2) {
+    margin-top: 5%;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+td,
+th {
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+tr th:nth-child(1),
+tr td:nth-child(1) {
+    width: 30%;
+}
+
+tr th:nth-child(2),
+tr td:nth-child(2) {
+    width: 40%;
+}
+
+tr th:nth-child(3),
+tr td:nth-child(3) {
+    width: 10%;
+}
+
+tr th:nth-child(4),
+tr td:nth-child(4) {
+    width: 13%;
+}
+
+th {
+    background-color: rgb(21, 20, 20);
+    color: floralwhite;
+}
+
+td {
+    border: solid;
+    border-width: 0.5px;
+}

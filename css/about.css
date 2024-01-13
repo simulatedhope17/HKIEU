@@ -1,0 +1,106 @@
+#promo_img {
+    width: 100%;
+    height: auto;
+}
+
+main {
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+#conclusion {
+    float: left;
+}
+
+#float {
+    width: 65%;
+    float: right;
+
+}
+
+
+main p {
+    padding: 3.5% 0;
+}
+
+p+p {
+    padding-top: 0;
+}
+
+#table {
+    float: left;
+    width: 35%;
+    padding-left: 1%;
+    margin-inline: auto;
+    padding-top: 2%;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+caption {
+    text-align: center;
+    background-color: lightgray;
+    font-size: 25px;
+    height: 80px;
+    vertical-align: middle;
+    border: solid;
+    border-width: 0.5px 0.5px 0;
+    border-radius: 8px 8px 0 0;
+}
+
+th,
+td {
+    display: block;
+    text-align: center;
+    border-style: solid;
+    border-width: 0.5px;
+    font-size: 16px;
+    height: 45px;
+    padding-top: 12px;
+}
+
+tr th:last-child {
+    border-bottom-left-radius: 8px;
+}
+
+tr td:last-child {
+    border-bottom-right-radius: 8px;
+}
+
+
+th {
+    background-color: linen;
+    width: 240px;
+}
+
+td {
+    width: 60px;
+}
+
+tbody td:hover {
+    background-color: lightcoral;
+}
+
+td:nth-child(odd) {
+    background-color: azure;
+}
+
+td:nth-child(even) {
+    background-color: lightcyan;
+}
+
+thead {
+    float: left;
+}
+
+tbody {
+    float: right;
+}
+
+footer {
+    clear: both;
+}
